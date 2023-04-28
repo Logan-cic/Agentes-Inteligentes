@@ -29,8 +29,8 @@ def move(posicao_atual, nova_posicao, matriz):
     elif posicao_atual[1] > nova_posicao[1]:
         acoes = "esquerda"
     elif posicao_atual[1] < nova_posicao[1]:
-        acoes = "direita" 
-    
+        acoes = "direita"
+ 
     matriz[posicao_atual[0]][posicao_atual[1]] = "limpo"
     matriz[nova_posicao[0]][nova_posicao[1]] = "aspirador"
     
