@@ -80,6 +80,7 @@ def bfs(posicao_do_aspirador, matriz):
     fim = time.time()
     # print(f"tempo inicial {inicio} e o tempo final {fim}")
     sujos_limpados = custo
+    print("medida de desempenho será o tanto de ações realizadas pelo aspirador")
     print(f"o custo para realizar a limpeza foi de {custo}")
     
 sujo_posicoes = []
