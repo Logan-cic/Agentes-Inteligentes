@@ -1,6 +1,9 @@
 from queue import Queue
 import time
 
+# Implementação da atividade sobre agentes inteligentes 
+# Disciplina: Inteligencia Artificial
+# Alunos: Davison Logan dos Santos Cardoso, Arthur Leal Moreira
 
 def print_matriz(matriz):
     for linha in matriz:
